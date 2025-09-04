@@ -1,0 +1,7 @@
+name: base
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pygobject
+prefix: /opt/conda
