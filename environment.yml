@@ -1,7 +1,11 @@
 name: base
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - pygobject
-prefix: /opt/conda
+  - gtk4
+  - webkit2gtk4.1
+  - pyxdg
+  - adwaita-icon-theme
+  - libadwaita
